@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- FONT -->
+    <link href="./assets/fonts/font/font-style.css" rel="stylesheet" />
+
+    <!-- CSS SAYA -->
+    <link href="./assets/css/style.css" rel="stylesheet" />
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <!-- FONTAWOSOME -->
+  <body>
+    <div class="container">
+      <div class="nofikasicontainer">
+        <header>
+          <div class="notifikasiheader">
+            <h1>Notifications</h1>
+            <span id="num-of-notif"></span>
+          </div>
+          <p id="mark-as-read">Mark all as read</p>
+        </header>
+        <main>
+          <div class="notifikasioncard unread">
+            <img src="./assets/images/avatar-mark-webber.webp" alt="foto" />
+            <div class="deskripsi">
+              <p><strong>Mark Webber</strong> reacted to your recent post<strong class="link"> My first tournament today!</strong></p>
+              <p id="notif-item">1m ago</p>
+            </div>
+          </div>
+
+          <div class="notifikasioncard unread">
+            <img src="./assets/images/avatar-angela-gray.webp" alt="foto" />
+            <div class="deskripsi">
+              <p><strong>Angela Gray</strong> followed you</p>
+              <p id="notif-item">5m ago</p>
+            </div>
+          </div>
+
+          <div class="notifikasioncard unread">
+            <img src="./assets/images/avatar-jacob-thompson.webp" alt="foto" />
+            <div class="deskripsi">
+              <p><strong>Jacob Thompson</strong> has joined your group <strong class="link"> Chess Club</strong></p>
+              <p id="notif-item">1day ago</p>
+            </div>
+          </div>
+
+          <div class="notifikasioncard">
+            <div class="message_card">
+              <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="foto" />
+              <div class="deskripsi">
+                <p><strong>Rizky Hasanudin</strong> sent you a private message</p>
+                <p id="notif-item">5 days ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="message">
+            <p>Hello, thansk for setting up the Chess Club. I've been a member for a few weeks now and i'm already having lots of fun and improving my game.</p>
+          </div>
+
+          <div class="notifikasioncard">
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="foto" />
+            <div class="deskripsi">
+              <p><strong>Kimberly Smith</strong> commented on your picture</p>
+              <p id="notif-item">1 week ago</p>
+            </div>
+            <img src="./assets/images/image-chess.webp" alt="foto" class="chess" />
+          </div>
+
+          <div class="notifikasioncard">
+            <img src="./assets/images/avatar-nathan-peterson.webp" alt="foto" />
+            <div class="deskripsi">
+              <p><strong>Nathan Peterson</strong> reacted to your recent post <b> 5 end-game strategis to increase your picture</b></p>
+              <p id="notif-item">2 weeks ago</p>
+            </div>
+          </div>
+
+          <div class="notifikasioncard">
+            <img src="./assets/images/avatar-anna-kim.webp" alt="foto" />
+            <div class="deskripsi">
+              <p><strong>Anna Kimberly</strong> Left the group<strong class="link"> Chess Club</strong></p>
+              <p id="notif-item">2 weeks ago</p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>  
+  
+</body>
+</html>
